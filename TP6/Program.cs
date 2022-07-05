@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TP6.Presentador;
+using TP6.Vista;
 
 namespace TP6
 {
@@ -17,7 +19,9 @@ namespace TP6
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ViewMain());
+            IMainView view = new MainView();
+            new MainPresenter(view);
+            Application.Run((Form) view);
         }
     }
 }

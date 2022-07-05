@@ -8,10 +8,10 @@ using System.Windows.Forms;
 
 namespace TP6
 {
-    public partial class ViewProductList : Form
+    public partial class ProductListView : Form
     {
-        ViewProducto _viewProducto;
-        public ViewProductList(Form p)
+        ProductoView _viewProducto;
+        public ProductListView(Form p)
         {
             InitializeComponent();
             this.MdiParent = p;
@@ -25,14 +25,16 @@ namespace TP6
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            _viewProducto = new ViewProducto();
+            _viewProducto = new ProductoView();
             _viewProducto.ShowDialog();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            _viewProducto = new ViewProducto();
+            _viewProducto = new ProductoView();
             _viewProducto.ShowDialog();
         }
+
+        
     }
 }

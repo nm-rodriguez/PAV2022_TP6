@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace TP6
 {
-    public partial class ViewProducto : Form
+    public partial class ProductoView : Form
     {
-        public ViewProducto()
+        public ProductoView()
         {
             InitializeComponent();
         }

@@ -1,7 +1,7 @@
 ﻿
 namespace TP6
 {
-    partial class ViewMain
+    partial class MainView
     {
         /// <summary>
         ///  Required designer variable.

@@ -1,6 +1,6 @@
 ﻿namespace TP6
 {
-    partial class ViewProducto
+    partial class ProductoView
     {
         /// <summary>
         /// Required designer variable.

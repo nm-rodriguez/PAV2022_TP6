@@ -4,8 +4,6 @@ C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\bin\Debug\netcoreapp3.1
 C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\bin\Debug\netcoreapp3.1\TP6.runtimeconfig.dev.json
 C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\bin\Debug\netcoreapp3.1\TP6.dll
 C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\bin\Debug\netcoreapp3.1\TP6.pdb
-C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\obj\Debug\netcoreapp3.1\TP6.ViewMain.resources
-C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\obj\Debug\netcoreapp3.1\TP6.ViewProductList.resources
 C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\obj\Debug\netcoreapp3.1\TP6.csproj.GenerateResource.cache
 C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\obj\Debug\netcoreapp3.1\TP6.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\obj\Debug\netcoreapp3.1\TP6.AssemblyInfoInputs.cache
@@ -16,4 +14,6 @@ C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\obj\Debug\netcoreapp3.1
 C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\obj\Debug\netcoreapp3.1\TP6.genruntimeconfig.cache
 C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\obj\Debug\netcoreapp3.1\TP6.Properties.Resources.resources
 C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\obj\Debug\netcoreapp3.1\TP6.csproj.AssemblyReference.cache
-C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\obj\Debug\netcoreapp3.1\TP6.ViewProducto.resources
+C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\obj\Debug\netcoreapp3.1\TP6.MainView.resources
+C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\obj\Debug\netcoreapp3.1\TP6.ProductListView.resources
+C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\obj\Debug\netcoreapp3.1\TP6.ProductoView.resources
