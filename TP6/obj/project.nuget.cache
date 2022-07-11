@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EbR3OTgyWTLRsdRXu7X0AEbYAlj345rqjji490XqgyYcyFYTVNLPyI5nM6j7EFMaYTxX4zOvpXAojIX7y1Ev+Q==",
+  "dgSpecHash": "oEQRmtLv5cBEUCGjHQ/OE86h6rV4D/3NurPM36v+ABz3nyVhty3j5G0JDL9ndTh7ZldYltb4FGWG/L9ov9YxTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nrodriguez\\Desktop\\nm-rodriguez\\PAV2022_TP6\\TP6\\TP6.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\nrodriguez\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
-    "C:\\Users\\nrodriguez\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\nrodriguez\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\nrodriguez\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Nicolás\\Documents\\ESTUDIO\\Ing. Sistemas 3°año\\ELECTIVA - PAV\\TPS - Codigo\\PAV2022_TP6_46351\\TP6\\TP6.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -7,10 +7,11 @@ using TP6.Modelo;
 
 namespace TP6
 {
-    public class PersistenciaDatos
+    public class PersistenciaDatos: IProductoRepositorio
     {
         public List<Producto> ListaProductos { get; set; }
         public Producto producto { get; set; }
+       
         public PersistenciaDatos()
         {
             CargarProductos();
@@ -24,45 +25,41 @@ namespace TP6
             ListaProductos.Add(new Producto("3","Cafe Dolca",0.21,250,0.50));
             ListaProductos.Add(new Producto("4","Azucar 1kg",0.21,35,0.50));
             ListaProductos.Add(new Producto("5","Pollo 1kg",0.21,650,0.50));
+            ListaProductos.Add(new Producto("6","Pan 1kg",0.21,300,0.50));
+            ListaProductos.Add(new Producto("7","Oreos",0.21,120,0.50));
         }
 
-        public Producto BuscarProducto(string codigo)
+        public void Add(Producto productoModelo)
         {
-            //hacer consulta con LinQ
-            return ListaProductos.Find(p => p.Codigo == codigo);
+            throw new NotImplementedException();
         }
 
-        public void AgregarProducto(Producto prod)
+        public void Edit(Producto productoModelo)
         {
-            ListaProductos.Add(prod);
+            throw new NotImplementedException();
         }
 
-        public void EliminarProducto(string cod)
+        public void Delete(string id)
         {
-            foreach (Producto pViejo in ListaProductos)
+            Producto prod = null;
+            foreach (var producto in ListaProductos)
             {
-                if (pViejo.Codigo == cod)
+                if (producto.Codigo == id)
                 {
-                    ListaProductos.Remove(pViejo);
-                    return;
+                    prod = producto;
                 }
             }
+            ListaProductos.Remove(prod);
         }
 
-        public void ModificarProducto(string cod, Producto productoModificado)
+        public IEnumerable<Producto> GetAll()
         {
-            foreach (Producto pViejo in ListaProductos)
-            {
-                if (pViejo.Codigo == cod)
-                {
-                    pViejo.Codigo = productoModificado.Codigo;
-                    pViejo.Descripcion = productoModificado.Descripcion;
-                    pViejo.PorcentajeIVA = productoModificado.PorcentajeIVA;
-                    pViejo.CostoSinIva = productoModificado.CostoSinIva;
-                    pViejo.MargenGanancia = productoModificado.MargenGanancia;
-                    return;
-                }
-            }
+            return ListaProductos;
+        }
+
+        public IEnumerable<Producto> GetByValue(string id)
+        {
+            return ListaProductos.Where(x => x.Codigo == id);
         }
     }
 }

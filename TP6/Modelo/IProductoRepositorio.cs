@@ -8,7 +8,7 @@ namespace TP6.Modelo
     {
         void Add(Producto productoModelo);
         void Edit(Producto productoModelo);
-        void Edit(int id);
+        void Delete(string id);
         IEnumerable<Producto> GetAll();
         IEnumerable<Producto> GetByValue(string id);
     }

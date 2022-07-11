@@ -17,3 +17,22 @@ C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\obj\Debug\netcoreapp3.1
 C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\obj\Debug\netcoreapp3.1\TP6.MainView.resources
 C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\obj\Debug\netcoreapp3.1\TP6.ProductListView.resources
 C:\Users\nrodriguez\Desktop\nm-rodriguez\PAV2022_TP6\TP6\obj\Debug\netcoreapp3.1\TP6.ProductoView.resources
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\bin\Debug\netcoreapp3.1\TP6.exe
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\bin\Debug\netcoreapp3.1\TP6.deps.json
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\bin\Debug\netcoreapp3.1\TP6.runtimeconfig.json
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\bin\Debug\netcoreapp3.1\TP6.runtimeconfig.dev.json
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\bin\Debug\netcoreapp3.1\TP6.dll
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\bin\Debug\netcoreapp3.1\TP6.pdb
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\obj\Debug\netcoreapp3.1\TP6.Properties.Resources.resources
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\obj\Debug\netcoreapp3.1\TP6.MainView.resources
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\obj\Debug\netcoreapp3.1\TP6.ProductListView.resources
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\obj\Debug\netcoreapp3.1\TP6.ProductoView.resources
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\obj\Debug\netcoreapp3.1\TP6.csproj.GenerateResource.cache
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\obj\Debug\netcoreapp3.1\TP6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\obj\Debug\netcoreapp3.1\TP6.AssemblyInfoInputs.cache
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\obj\Debug\netcoreapp3.1\TP6.AssemblyInfo.cs
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\obj\Debug\netcoreapp3.1\TP6.csproj.CoreCompileInputs.cache
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\obj\Debug\netcoreapp3.1\TP6.dll
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\obj\Debug\netcoreapp3.1\TP6.pdb
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\obj\Debug\netcoreapp3.1\TP6.genruntimeconfig.cache
+C:\Users\Nicolás\Documents\ESTUDIO\Ing. Sistemas 3°año\ELECTIVA - PAV\TPS - Codigo\PAV2022_TP6_46351\TP6\obj\Debug\netcoreapp3.1\TP6.csproj.AssemblyReference.cache
