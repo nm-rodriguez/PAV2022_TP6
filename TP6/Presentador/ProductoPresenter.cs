@@ -43,7 +43,7 @@ namespace TP6.Presentador
             double porcentajeIVA = Convert.ToDouble(_viewProducto.PorcentajeIVA);
             double costoSinIva = Convert.ToDouble(_viewProducto.CostoSinIva);
             double margenGanancia = Convert.ToDouble(_viewProducto.MargenGanancia);
-            Producto p = new Producto(codigo, descripcion, porcentajeIVA, costoSinIva, margenGanancia);
+            var p = new Producto(codigo, descripcion, porcentajeIVA, costoSinIva, margenGanancia);
             _repositorio.Add(p);
             _viewProducto.Dispose();
             RecargarLista();
@@ -83,7 +83,22 @@ namespace TP6.Presentador
             _viewProducto.MargenGanancia = p.MargenGanancia.ToString();
             _viewProducto.PrecioFinalVenta = p.PrecioFinalVenta.ToString();
             _viewProducto.Estado = p.Estado.ToString();
+            _viewProducto.ModificarProducto += ModificarProducto;
         }
+
+        private void ModificarProducto(object sender, EventArgs e)
+        {
+            string codigo = _viewProducto.Codigo;
+            string descripcion = _viewProducto.Descripcion;
+            double porcentajeIVA = Convert.ToDouble(_viewProducto.PorcentajeIVA);
+            double costoSinIva = Convert.ToDouble(_viewProducto.CostoSinIva);
+            double margenGanancia = Convert.ToDouble(_viewProducto.MargenGanancia);
+            var p = new Producto(codigo, descripcion, porcentajeIVA, costoSinIva, margenGanancia);
+            _repositorio.Edit(p);
+            _viewProducto.Dispose();
+            RecargarLista();
+        }
+
         private void BuscarProducto(object sender, EventArgs e)
         {
             bool emptyValue = string.IsNullOrWhiteSpace(_view.Codigo);

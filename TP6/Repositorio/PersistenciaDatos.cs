@@ -34,9 +34,22 @@ namespace TP6
             ListaProductos.Add(producto);
         }
 
-        public void Edit(Producto productoModelo)
+        public void Edit(Producto producto)
         {
-            throw new NotImplementedException();
+            foreach (Producto pViejo in ListaProductos)
+            {
+                if (pViejo.Codigo == producto.Codigo)
+                {
+                    pViejo.Codigo = producto.Codigo;
+                    pViejo.Descripcion = producto.Descripcion;
+                    pViejo.PorcentajeIVA = producto.PorcentajeIVA;
+                    pViejo.CostoSinIva = producto.CostoSinIva;
+                    pViejo.MargenGanancia = producto.MargenGanancia;
+                    return;
+                }
+            }
+
+
         }
 
         public void Delete(string id)

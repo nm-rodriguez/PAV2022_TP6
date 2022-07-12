@@ -26,13 +26,15 @@ namespace TP6
             {
                 btnGuardar.Visible = true;
                 btnModificar.Visible = false;
+                txtCodigo.Enabled = true;
             }
             else
             {
                 btnGuardar.Visible = false;
                 btnModificar.Visible = true;
+                txtCodigo.Enabled = false;
             }
-                btnGuardar.Click += delegate {
+            btnGuardar.Click += delegate {
                     var result = MessageBox.Show("Esta seguro que desea agregar este producto?", "Atencion", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                     if (result == DialogResult.Yes)
                     {
