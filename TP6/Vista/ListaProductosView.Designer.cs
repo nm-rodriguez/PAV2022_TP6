@@ -1,6 +1,6 @@
 ﻿namespace TP6
 {
-    partial class ProductListView
+    partial class ListaProductosView
     {
         /// <summary>
         /// Required designer variable.

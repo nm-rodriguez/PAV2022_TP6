@@ -9,24 +9,26 @@ using TP6.Vista;
 
 namespace TP6
 {
-    public partial class ProductListView : Form, IListaProductosView
+    public partial class ListaProductosView : Form, IListaProductosView
     {
-        public ProductListView(Form p)
+        public ListaProductosView(Form p)
         {
             InitializeComponent();
             MdiParent = p;
             
             WindowState = FormWindowState.Maximized;
             FormBorderStyle = FormBorderStyle.Sizable;
-            btnAdd.Click += delegate { MostrarVistaProductos?.Invoke(this, EventArgs.Empty); };
-            btnEdit.Click += delegate { MostrarVistaProductos?.Invoke(this, EventArgs.Empty); };
+            btnAdd.Click += delegate { AgregarProducto?.Invoke(this, EventArgs.Empty); };
+            btnEdit.Click += delegate { EditarProducto?.Invoke(this, EventArgs.Empty); };
+            
             btnDelete.Click += delegate {
                 var result = MessageBox.Show("Esta seguro que desea eliminar este producto?","Atencion",MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
                 if(result == DialogResult.Yes)
                 {
-                    EliminarProducto?.Invoke(this, EventArgs.Empty); 
+                    EliminarProducto?.Invoke(this, EventArgs.Empty);
                 }
             };
+            
             txtCodigo.TextChanged += (s, e) =>
             {
                     BuscarCodigo?.Invoke(this, EventArgs.Empty);
@@ -38,8 +40,9 @@ namespace TP6
         public event EventHandler BuscarCodigo;
         public event EventHandler MostrarVistaProductos;
         public event EventHandler EliminarProducto;
+        public event EventHandler AgregarProducto;
+        public event EventHandler EditarProducto;
 
-        
         public void SetProductListBindingSource(BindingSource productList)
         {
             dataGridView1.DataSource = productList;

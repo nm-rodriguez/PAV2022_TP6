@@ -21,29 +21,69 @@ namespace TP6.Presentador
             _view = producto;
             _view.SetProductListBindingSource(_listaBinding);
             _view.BuscarCodigo += BuscarProducto;
-            _view.MostrarVistaProductos += MostrarVistaProducto;
+            _view.EditarProducto += MostrarVistaModificar;
+            _view.EditarProducto += CargarProducto;
+            _view.AgregarProducto+= MostrarVistaAgregar;
             _view.EliminarProducto+= EliminarProducto;
-            
+           
+
             _repositorio = persistencia;
             CargarTodosLosProductos();
             _view.Show();
         }
+        public void RecargarLista()
+        {
+            _listaBinding.DataSource = null;
+            _listaBinding.DataSource = _repositorio.GetAll();
+        }
+        private void AgregarProducto(object sender, EventArgs e)
+        {
+            string codigo = _viewProducto.Codigo;
+            string descripcion = _viewProducto.Descripcion;
+            double porcentajeIVA = Convert.ToDouble(_viewProducto.PorcentajeIVA);
+            double costoSinIva = Convert.ToDouble(_viewProducto.CostoSinIva);
+            double margenGanancia = Convert.ToDouble(_viewProducto.MargenGanancia);
+            Producto p = new Producto(codigo, descripcion, porcentajeIVA, costoSinIva, margenGanancia);
+            _repositorio.Add(p);
+            _viewProducto.Dispose();
+            RecargarLista();
+
+        }
+
+        private void MostrarVistaAgregar(object sender, EventArgs e)
+        {
+            _viewProducto = new ProductoView(true);
+            _viewProducto.AgregarProducto += AgregarProducto;
+            _viewProducto.Show();
+        }
+
 
         private void EliminarProducto(object sender, EventArgs e)
         {
             var producto = (Producto)_listaBinding.Current;
             _repositorio.Delete(producto.Codigo);
-            _listaBinding.DataSource = null;
-            _listaBinding.DataSource = _repositorio.GetAll();
+            RecargarLista();
 
         }
 
-        private void MostrarVistaProducto(object sender, EventArgs e)
+        private void MostrarVistaModificar(object sender, EventArgs e)
         {
-            _viewProducto = new ProductoView();
+            _viewProducto = new ProductoView(false);
             _viewProducto.Show();
         }
 
+        private void CargarProducto(object sender, EventArgs e)
+        {
+            var p = (Producto)_listaBinding.Current;
+            _viewProducto.Codigo = p.Codigo;
+            _viewProducto.Descripcion = p.Descripcion;
+            _viewProducto.PorcentajeIVA = p.PorcentajeIVA.ToString();
+            _viewProducto.CostoConIVA= p.CostoConIVA.ToString();
+            _viewProducto.CostoSinIva= p.CostoSinIva.ToString();
+            _viewProducto.MargenGanancia = p.MargenGanancia.ToString();
+            _viewProducto.PrecioFinalVenta = p.PrecioFinalVenta.ToString();
+            _viewProducto.Estado = p.Estado.ToString();
+        }
         private void BuscarProducto(object sender, EventArgs e)
         {
             bool emptyValue = string.IsNullOrWhiteSpace(_view.Codigo);

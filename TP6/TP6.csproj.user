@@ -4,7 +4,7 @@
     <Compile Update="Vista\MainView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Vista\ProductListView.cs">
+    <Compile Update="Vista\ListaProductosView.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Vista\ProductoView.cs">

@@ -24,7 +24,7 @@ namespace TP6.Presentador
 
         private void ShowProductsListView(object sender, EventArgs e)
         {
-            _view = new ProductListView((MainView)_mainView);
+            _view = new ListaProductosView((MainView)_mainView);
             new ProductoPresenter(_view, _repo);
         }
     }

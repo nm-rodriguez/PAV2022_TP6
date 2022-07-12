@@ -29,9 +29,9 @@ namespace TP6
             ListaProductos.Add(new Producto("7","Oreos",0.21,120,0.50));
         }
 
-        public void Add(Producto productoModelo)
+        public void Add(Producto producto)
         {
-            throw new NotImplementedException();
+            ListaProductos.Add(producto);
         }
 
         public void Edit(Producto productoModelo)

@@ -28,44 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboEstados = new System.Windows.Forms.ComboBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtPrecioSinIva = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtPorcentajeIva = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtExistencia = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtPrecioConIva = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtMargenGanancia = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtPrecioFinal = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.btnModificar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnGuardar
             // 
-            this.button1.Location = new System.Drawing.Point(183, 337);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(143, 36);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnGuardar.Location = new System.Drawing.Point(183, 337);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(143, 36);
+            this.btnGuardar.TabIndex = 9;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtCodigo
             // 
-            this.textBox1.Font = new System.Drawing.Font("Arial", 12.11881F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(152, 18);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(174, 27);
-            this.textBox1.TabIndex = 0;
+            this.txtCodigo.Font = new System.Drawing.Font("Arial", 12.11881F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtCodigo.Location = new System.Drawing.Point(152, 18);
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(174, 27);
+            this.txtCodigo.TabIndex = 0;
             // 
             // label1
             // 
@@ -77,13 +78,13 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Código";
             // 
-            // comboBox1
+            // comboEstados
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(152, 283);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(174, 25);
-            this.comboBox1.TabIndex = 8;
+            this.comboEstados.FormattingEnabled = true;
+            this.comboEstados.Location = new System.Drawing.Point(152, 283);
+            this.comboEstados.Name = "comboEstados";
+            this.comboEstados.Size = new System.Drawing.Size(174, 25);
+            this.comboEstados.TabIndex = 8;
             // 
             // button2
             // 
@@ -105,13 +106,13 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Descripción";
             // 
-            // textBox2
+            // txtDescripcion
             // 
-            this.textBox2.Font = new System.Drawing.Font("Arial", 12.11881F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(152, 51);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(174, 27);
-            this.textBox2.TabIndex = 1;
+            this.txtDescripcion.Font = new System.Drawing.Font("Arial", 12.11881F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtDescripcion.Location = new System.Drawing.Point(152, 51);
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(174, 27);
+            this.txtDescripcion.TabIndex = 1;
             // 
             // label3
             // 
@@ -123,13 +124,13 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Precion sin IVA";
             // 
-            // textBox3
+            // txtPrecioSinIva
             // 
-            this.textBox3.Font = new System.Drawing.Font("Arial", 12.11881F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox3.Location = new System.Drawing.Point(152, 84);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(174, 27);
-            this.textBox3.TabIndex = 2;
+            this.txtPrecioSinIva.Font = new System.Drawing.Font("Arial", 12.11881F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtPrecioSinIva.Location = new System.Drawing.Point(152, 84);
+            this.txtPrecioSinIva.Name = "txtPrecioSinIva";
+            this.txtPrecioSinIva.Size = new System.Drawing.Size(174, 27);
+            this.txtPrecioSinIva.TabIndex = 2;
             // 
             // label4
             // 
@@ -141,13 +142,13 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "Porcentaje IVA";
             // 
-            // textBox4
+            // txtPorcentajeIva
             // 
-            this.textBox4.Font = new System.Drawing.Font("Arial", 12.11881F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox4.Location = new System.Drawing.Point(152, 117);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(174, 27);
-            this.textBox4.TabIndex = 3;
+            this.txtPorcentajeIva.Font = new System.Drawing.Font("Arial", 12.11881F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtPorcentajeIva.Location = new System.Drawing.Point(152, 117);
+            this.txtPorcentajeIva.Name = "txtPorcentajeIva";
+            this.txtPorcentajeIva.Size = new System.Drawing.Size(174, 27);
+            this.txtPorcentajeIva.TabIndex = 3;
             // 
             // label5
             // 
@@ -159,13 +160,13 @@
             this.label5.TabIndex = 12;
             this.label5.Text = "Existencia";
             // 
-            // textBox5
+            // txtExistencia
             // 
-            this.textBox5.Font = new System.Drawing.Font("Arial", 12.11881F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox5.Location = new System.Drawing.Point(152, 150);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(174, 27);
-            this.textBox5.TabIndex = 4;
+            this.txtExistencia.Font = new System.Drawing.Font("Arial", 12.11881F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtExistencia.Location = new System.Drawing.Point(152, 150);
+            this.txtExistencia.Name = "txtExistencia";
+            this.txtExistencia.Size = new System.Drawing.Size(174, 27);
+            this.txtExistencia.TabIndex = 4;
             // 
             // label6
             // 
@@ -177,13 +178,13 @@
             this.label6.TabIndex = 14;
             this.label6.Text = "Precio con IVA";
             // 
-            // textBox6
+            // txtPrecioConIva
             // 
-            this.textBox6.Font = new System.Drawing.Font("Arial", 12.11881F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox6.Location = new System.Drawing.Point(152, 183);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(174, 27);
-            this.textBox6.TabIndex = 5;
+            this.txtPrecioConIva.Font = new System.Drawing.Font("Arial", 12.11881F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtPrecioConIva.Location = new System.Drawing.Point(152, 183);
+            this.txtPrecioConIva.Name = "txtPrecioConIva";
+            this.txtPrecioConIva.Size = new System.Drawing.Size(174, 27);
+            this.txtPrecioConIva.TabIndex = 5;
             // 
             // label7
             // 
@@ -195,13 +196,13 @@
             this.label7.TabIndex = 16;
             this.label7.Text = "M. Ganancia";
             // 
-            // textBox7
+            // txtMargenGanancia
             // 
-            this.textBox7.Font = new System.Drawing.Font("Arial", 12.11881F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox7.Location = new System.Drawing.Point(152, 216);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(174, 27);
-            this.textBox7.TabIndex = 6;
+            this.txtMargenGanancia.Font = new System.Drawing.Font("Arial", 12.11881F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtMargenGanancia.Location = new System.Drawing.Point(152, 216);
+            this.txtMargenGanancia.Name = "txtMargenGanancia";
+            this.txtMargenGanancia.Size = new System.Drawing.Size(174, 27);
+            this.txtMargenGanancia.TabIndex = 6;
             // 
             // label8
             // 
@@ -213,13 +214,13 @@
             this.label8.TabIndex = 18;
             this.label8.Text = "Precio Final";
             // 
-            // textBox8
+            // txtPrecioFinal
             // 
-            this.textBox8.Font = new System.Drawing.Font("Arial", 12.11881F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox8.Location = new System.Drawing.Point(152, 248);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(174, 27);
-            this.textBox8.TabIndex = 7;
+            this.txtPrecioFinal.Font = new System.Drawing.Font("Arial", 12.11881F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtPrecioFinal.Location = new System.Drawing.Point(152, 248);
+            this.txtPrecioFinal.Name = "txtPrecioFinal";
+            this.txtPrecioFinal.Size = new System.Drawing.Size(174, 27);
+            this.txtPrecioFinal.TabIndex = 7;
             // 
             // label9
             // 
@@ -231,6 +232,15 @@
             this.label9.TabIndex = 20;
             this.label9.Text = "Estado";
             // 
+            // btnModificar
+            // 
+            this.btnModificar.Location = new System.Drawing.Point(183, 337);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(143, 36);
+            this.btnModificar.TabIndex = 21;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = true;
+            // 
             // ProductoView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -239,24 +249,25 @@
             this.ControlBox = false;
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.txtPrecioFinal);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txtMargenGanancia);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtPrecioConIva);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtExistencia);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtPorcentajeIva);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtPrecioSinIva);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboEstados);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtCodigo);
+            this.Controls.Add(this.btnGuardar);
+            this.Controls.Add(this.btnModificar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -270,25 +281,26 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboEstados;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtDescripcion;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtPrecioSinIva;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtPorcentajeIva;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtExistencia;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtPrecioConIva;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtMargenGanancia;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtPrecioFinal;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button btnModificar;
     }
 }

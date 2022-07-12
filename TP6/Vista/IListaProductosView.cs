@@ -10,7 +10,8 @@ namespace TP6.Vista
         public string Codigo { get; set; }
 
         event EventHandler BuscarCodigo;
-        event EventHandler MostrarVistaProductos;
+        event EventHandler AgregarProducto;
+        event EventHandler EditarProducto;
         event EventHandler EliminarProducto;
 
         void SetProductListBindingSource(BindingSource productList);
